@@ -7,7 +7,7 @@ public class Model {
     private String expression;
     private double result;
 
-    //Setters and Getters
+    // Setters and Getters
     public void setExpression(String expression) {
         this.expression = expression;
     }
@@ -24,16 +24,16 @@ public class Model {
         return result;
     }
 
-    //Method to convert Text to result
+    // Method to convert Text to result
     public double evaluateExpression() throws ParseException {
-        //New JEP, with all operations, trigonometric funtions, Pi and Euler
+        // New JEP, with all operations, trigonometric funtions, Pi and Euler
         JEP jep = new JEP();
         jep.addStandardFunctions();
         jep.addStandardConstants();
         jep.addVariable("π", Math.PI);
         jep.addVariable("e", Math.E);
 
-        //Reeplace some expresion symbols to ones understood by JEP
+        // Reeplace some expresion symbols to ones understood by JEP
         this.expression = this.expression.replaceAll("√", "sqrt");
         this.expression = this.expression.replaceAll("÷", "/");
 

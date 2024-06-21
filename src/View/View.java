@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class View extends JFrame {
 
-    // Variables declaration                     
+    // Variables declaration
     public javax.swing.JButton AnsButton;
     public javax.swing.JPanel Buttons;
     public javax.swing.JButton ComaButton;
@@ -53,7 +53,7 @@ public class View extends JFrame {
     public javax.swing.Box.Filler filler4;
     public javax.swing.Box.Filler filler5;
     public javax.swing.JLabel jLabel1;
-    // End of variables declaration     
+    // End of variables declaration
 
     public View() {
         initComponents();
@@ -65,18 +65,23 @@ public class View extends JFrame {
         Display = new javax.swing.JPanel();
         ValuesDisplay = new javax.swing.JPanel();
         EditTextField = new javax.swing.JTextField();
-        filler1 = new javax.swing.Box.Filler(new java.awt.Dimension(50, 0), new java.awt.Dimension(50, 0), new java.awt.Dimension(50, 32767));
+        filler1 = new javax.swing.Box.Filler(new java.awt.Dimension(50, 0), new java.awt.Dimension(50, 0),
+                new java.awt.Dimension(50, 32767));
         jLabel1 = new javax.swing.JLabel();
-        filler3 = new javax.swing.Box.Filler(new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 32767));
+        filler3 = new javax.swing.Box.Filler(new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 0),
+                new java.awt.Dimension(15, 32767));
         ResultTextField = new javax.swing.JTextField();
-        filler4 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15), new java.awt.Dimension(32767, 15));
+        filler4 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15),
+                new java.awt.Dimension(32767, 15));
         NavigationDisplay = new javax.swing.JPanel();
         DeleteButton = new javax.swing.JButton();
         EraseButton = new javax.swing.JButton();
-        filler5 = new javax.swing.Box.Filler(new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 32767));
+        filler5 = new javax.swing.Box.Filler(new java.awt.Dimension(15, 0), new java.awt.Dimension(15, 0),
+                new java.awt.Dimension(15, 32767));
         CopyButton = new javax.swing.JButton();
         ResultButton = new javax.swing.JButton();
-        filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15), new java.awt.Dimension(32767, 15));
+        filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15),
+                new java.awt.Dimension(32767, 15));
         Buttons = new javax.swing.JPanel();
         Numbers = new javax.swing.JPanel();
         N1Button = new javax.swing.JButton();
