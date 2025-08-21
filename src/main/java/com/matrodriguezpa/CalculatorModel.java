@@ -1,4 +1,4 @@
-package org.example;
+package com.matrodriguezpa;
 
 import org.nfunk.jep.JEP;
 import org.nfunk.jep.ParseException;

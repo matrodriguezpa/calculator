@@ -1,4 +1,8 @@
-package org.example;
+package com.matrodriguezpa.calculator;
+
+import com.matrodriguezpa.CalculatorController;
+import com.matrodriguezpa.CalculatorModel;
+import com.matrodriguezpa.CalculatorView;
 
 public class Calculator {
 
